@@ -6,6 +6,7 @@ namespace ShowSystemInformation
     {
         static void Main(string[] args)
         {
+            //Source: https://www.c-sharpcorner.com/UploadFile/75a48f/get-system-information-using-C-Sharp-code/
             StringBuilder systemInfo = new StringBuilder(string.Empty);
 
             systemInfo.AppendFormat("Operation System:  {0}\n", Environment.OSVersion);
